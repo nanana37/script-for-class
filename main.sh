@@ -24,7 +24,7 @@ elif [ $CMD = "rep" ] || [ $CMD = "r" ]; then
 elif [ $CMD = "note" ] || [ $CMD = "n" ]; then
 	sh "$SCR_DIR/edit-file.sh" note $OPT
 elif [ $CMD = "conv" ] || [ $CMD = "p" ]; then
-	sh "$SCR_DIR/conv-to-pdf.sh" $OPT
+	sh "$SCR_DIR/conv-rep-to-pdf.sh" $OPT
 elif [ $CMD = "hand" ] || [ $CMD = "h" ]; then
 	sh "$SCR_DIR/open-file.sh" handout $OPT
 else
