@@ -2,7 +2,15 @@
 
 Scripts for note(.md) taking with neovim.
 
-WIP
+## Install
+
+After cloning this repository, add the following line to your `.bashrc` or `.bash_profile`:
+
+```
+alias rp="sh <path_to_this>/main.sh"
+```
+
+## Usage (WIP)
 
 `rp help` to show usage
 
