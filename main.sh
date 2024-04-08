@@ -2,9 +2,13 @@
 # Alias: rp
 
 SCR_DIR="$(dirname "$(realpath "$0")")"
+if [ $# -eq 0 ]; then
+	sh "$SCR_DIR/help.sh"
+	exit 0
+fi
 
 # 'rp help' for help message
-if [ $1 == "help" ]; then
+if [ $1 = "help" ]; then
 	sh "$SCR_DIR/help.sh"
 	exit 0
 fi
