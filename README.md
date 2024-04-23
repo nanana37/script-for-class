@@ -1,6 +1,6 @@
 # rp for class note taking
 
-Scripts for note(.md) taking with neovim.
+Scripts for note (markdown files) taking with neovim.
 
 ## Install
 
