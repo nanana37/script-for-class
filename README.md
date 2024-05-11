@@ -1,5 +1,7 @@
 # rp for class note taking
 
+授業ごとのディレクトリを一発で作ってくれるだけのシェルスクリプト
+
 Scripts for note (markdown files) taking with neovim.
 
 ## Install
